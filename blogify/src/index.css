@@ -1,0 +1,116 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --main-color: #712cf9;
+}
+
+html{
+  font-size: 10px;
+}
+
+.home-page{
+  width: 100%;
+  /* height: 250vh; */
+}
+
+.home-page .hero-sec{
+  background-color: var(--main-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-sec .hero-logo{
+  height: 12rem;
+}
+
+.hero-sec p{
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 2rem 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-sec .sign-btn{
+  font-size: 1.5rem;
+  color: white;
+  background-color: var(--main-color);
+  margin-left: 2rem;
+  outline: 1px solid #fff;
+}
+
+.hero-sec .sign-btn:hover{
+  color: var(--main-color);
+  background-color: white;
+}
+
+.home-page .home-abt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 3rem;
+}
+
+.home-abt h2{
+  text-align: center;
+  color: var(--main-color);
+  font-size: 6rem;
+  margin: 0 0 2rem;
+}
+
+.home-abt p{
+  font-size: 1.8rem;
+  text-align: center;
+  max-width: 700px;
+}
+
+/* !Footer Component */
+
+.foot-comp{
+  width: 100%;
+  height: auto;
+  padding: 30px 50px;
+  background-color: var(--main-color);
+}
+
+.foot-comp .copyright{
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+/* !SignUp Component */
+
+.sign-up-page{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: var(--main-color); */
+}
+
+/* !Header Component */
+
+.navbar-default {
+  background-color: var(--main-color);
+}
+
+/* !Feed Component */
+
+.feed{
+  min-height: calc(100vh - 150px);
+  padding: 10px 20px;
+}
